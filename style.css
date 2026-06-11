@@ -4,6 +4,7 @@
 
 img {
     width: 100%;
+    border-radius: 25px;
 }
 
 .hero-image {
@@ -32,6 +33,28 @@ img {
     margin-top: 40px;
 }
 
-.info{
+.info {
     font-size: 1.15em;
+}
+
+.three-column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card {
+    overflow: hidden;
+    background-color: rgb(0, 0, 140);
+}
+
+.card-text {
+    text-align: center;
+    font-size: 150%;
+    color: whitesmoke
 }
